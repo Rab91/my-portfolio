@@ -1,0 +1,13 @@
+
+.row{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.column{
+    background-color:rgb(36, 53, 203);
+    color: #FFF;   
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}

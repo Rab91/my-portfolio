@@ -1,0 +1,21 @@
+.expContainer{
+    text-align: center;
+    color: rgb(36, 53, 203);
+}
+.cardGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardStyle{
+    border-radius: 15;
+    box-shadow: 50px;
+    color: #FFF;
+    height: 250px;
+    width: 200px;
+    background-color:rgb(140, 70, 226) ;
+    border: rgb(140, 70, 226);
+}
+.list{
+    margin-bottom: 20px;
+}

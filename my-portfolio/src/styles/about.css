@@ -1,0 +1,51 @@
+.card {
+    background-color: rgb(249, 182, 217);
+    border: 5;
+    border-radius: 5;
+    box-shadow: 13px;
+    margin: 10px;
+}
+.aboutHeader{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1.2rem 0;
+}
+.aboutContainer{
+    text-align: center;
+}
+.aboutTitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(36, 53, 203);
+    font-size: 18px;
+}
+.button{
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.profileImage{
+    width: 100%;
+    height: 100%;
+
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(200px);
+    }
+    to{
+        transform: rotateX(0);
+    }
+}
+.role{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
